@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="dhruvipatel.c0719320_cricketplayerrank.Model.InsertPlayerActivity"
+    android:background="@android:color/white"
+        >
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dhruvipatel.c0719320_cricketplayerrank.Model.InsertPlayerActivity"
+    android:padding="5dp"
+    android:gravity="center_horizontal|center_vertical|top"
+    android:background="@android:color/white">
+
+
+
+
+        <EditText
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textColorHint="@android:color/black"
+            android:hint="Name"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_gender"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:dropDownWidth="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:popupBackground="@android:color/holo_blue_light"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp"
+            android:overlapAnchor="false"
+            android:prompt="@string/select_gender"
+            android:background="@android:color/darker_gray"/>
+
+        <EditText
+            android:id="@+id/tv_bithdate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:hint="Birth Date"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinner_category"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:dropDownWidth="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:popupBackground="@android:color/holo_blue_light"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp"
+            android:overlapAnchor="false"
+            android:background="@android:color/darker_gray"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_country"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:dropDownWidth="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:popupBackground="@android:color/holo_blue_light"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp"
+            android:overlapAnchor="false"
+            android:background="@android:color/darker_gray"
+            />
+
+        <EditText
+            android:id="@+id/tv_testmatch"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:hint="No Of Test Match"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp"
+            tools:phoneNumber="false" />
+
+        <EditText
+            android:id="@+id/tv_oneday"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:hint="No Of One Day "
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+        <EditText
+                android:id="@+id/tv_catch"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:hint="No Of Catch "
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textSize="20sp" />
+
+        <EditText
+                android:id="@+id/tv_runs"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:hint="No Of Runs "
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textSize="20sp" />
+
+
+        <EditText
+                android:id="@+id/tv_wicket"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:hint="No Of Wicket "
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textSize="20sp" />
+
+        <EditText
+                android:id="@+id/tv_stumping"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:hint="No Of Stumping "
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_insertPlayers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/btn_color"
+            android:hint="Insert Player Records"
+            android:textColorHint="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+        <Button
+            android:id="@+id/btn_show_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/btn_color"
+            android:hint="Show All Records"
+            android:textColorHint="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+</ScrollView>
